@@ -16,8 +16,7 @@ I currently manage my plugins using [lazy.nvim](https://lazy.folke.io/).
 * Ripgrep is required for grep searching with Telescope (OPTIONAL).
 ### Run:
 ```shell
-[ -d ~/.config/nvim ] && mv ~/.config/nvim ~/.config/nvim.backup &&
-git clone https://github.com/m0ddr/nvim ~/.config/nvim
+[ -d ~/.config/nvim ] && mv ~/.config/nvim ~/.config/nvim.backup; git clone https://github.com/real-kiero/nvim ~/.config/nvim
 ```
 This will create a backup of any pre-existing nvim config
 
